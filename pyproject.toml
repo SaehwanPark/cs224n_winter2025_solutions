@@ -1,0 +1,15 @@
+[project]
+name = "cs224n-winter2025-solution"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=4.4.2",
+    "gensim>=4.4.0",
+    "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.0",
+    "scikit-learn>=1.8.0",
+]
