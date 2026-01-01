@@ -139,6 +139,16 @@ Highlights:
 
 ---
 
+### 4. minimalBERT (From Scratch)
+
+Highlights:
+
+- PyTorch encoder-only architecture from first principles
+- Modular components with Hugging Face weight compatibility
+- Dual pre-training objectives (MLM + NSP) with comprehensive tests
+
+---
+
 ## Design Philosophy
 
 Across assignments and projects, I optimized for:
