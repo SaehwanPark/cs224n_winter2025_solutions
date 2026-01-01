@@ -34,8 +34,8 @@ Course homepage: https://web.stanford.edu/class/cs224n/
 | ------------------------- | ----------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | Neural Dependency Parser  | Transition-based parsing      | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/neural-dep-parser)                 |
 | Neural Machine Translator | Seq2Seq + Attention           | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/neural-machine-translator) |
-| Minimal GPT-2             | Transformer LM (from scratch) | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/fp-gpt2)                                     |
-| Minimal BERT             | Transformer LM (from scratch) | PyTorch | [Github Repo](https://github.com/SaehwanPark/minimal-bert)                                     |
+| Minimal GPT-2             | Transformer LM (decoder-only) | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/fp-gpt2)                                     |
+| Minimal BERT             | Transformer LM (encoder-only) | PyTorch | [Github Repo](https://github.com/SaehwanPark/minimal-bert)                                     |
 
 ---
 
