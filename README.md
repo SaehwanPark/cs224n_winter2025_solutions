@@ -28,13 +28,14 @@ Course homepage: https://web.stanford.edu/class/cs224n/
 | Assignment 4 | Attention & Transformers                | [Problem PDF](https://web.stanford.edu/class/cs224n/assignments_w25/a4.pdf) · [Solution](solutions/assignment4-solution.md) |
 
 
-### Course Projects (Independent Implementations)
+### Course+Extra Projects (Independent Implementations)
 
 | Project                   | Model / Focus                 | Framework  | Repository                                                                                                           |
 | ------------------------- | ----------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | Neural Dependency Parser  | Transition-based parsing      | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/neural-dep-parser)                 |
 | Neural Machine Translator | Seq2Seq + Attention           | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/neural-machine-translator) |
 | Minimal GPT-2             | Transformer LM (from scratch) | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/fp-gpt2)                                     |
+| Minimal BERT             | Transformer LM (from scratch) | PyTorch | [Github Repo](https://github.com/SaehwanPark/minimal-bert)                                     |
 
 ---
 
