@@ -35,7 +35,9 @@ Course homepage: https://web.stanford.edu/class/cs224n/
 | Neural Dependency Parser  | Transition-based parsing      | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/neural-dep-parser)                 |
 | Neural Machine Translator | Seq2Seq + Attention           | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/neural-machine-translator) |
 | Minimal GPT-2             | Transformer LM (decoder-only) | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/fp-gpt2)                                     |
-| Minimal BERT             | Transformer LM (encoder-only) | PyTorch | [Github Repo](https://github.com/SaehwanPark/minimal-bert)                                     |
+| Minimal BERT (Extra)      | Transformer LM (encoder-only) | PyTorch | [Github Repo](https://github.com/SaehwanPark/minimal-bert)                                     |
+| Modern BERT (Extra)      | Transformer LM (encoder-only) | PyTorch | [Github Repo](https://github.com/SaehwanPark/modern-bert)                                     |
+
 
 ---
 
@@ -101,13 +103,15 @@ Focus areas:
 
 ---
 
-## Course Projects (Independent Implementations)
+## Projects
 
-All projects below were implemented **in JAX/Flax**, intentionally deviating from the
+All the course projects (Projects 1-3) were implemented **in JAX/Flax**, intentionally deviating from the
 course’s default **PyTorch** requirement to explore:
 - functional programming style,
 - explicit state handling,
 - JAX transformations (`jit`, `vmap`, `lax`).
+
+Later extra projects (Projects 4-5) were implemented **in PyTorch** to compare development experience by myself.
 
 ### 1. Neural Transition-based Dependency Parser
 
@@ -139,13 +143,21 @@ Highlights:
 
 ---
 
-### 4. minimalBERT (From Scratch)
+### 4. minimalBERT (From Scratch): Extra / Implemented in PyTorch
 
 Highlights:
 
 - PyTorch encoder-only architecture from first principles
 - Modular components with Hugging Face weight compatibility
 - Dual pre-training objectives (MLM + NSP) with comprehensive tests
+
+---
+
+### 5. ModernBERT (From Scratch): Extra / Implemented in PyTorch
+
+- Codebase size reduced by approx. 60% 
+- Modular components with Hugging Face weight compatibility
+- Fully implemented advanced features: alternating attention, dual RoPE scheduling, GeGLU activation, skip-first pre-norm, base-free LayerNorm, etc.
 
 ---
 
