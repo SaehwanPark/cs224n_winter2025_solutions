@@ -12,7 +12,7 @@ The materials here are published **after course completion** and are intended fo
 > ⚠️ **Academic Integrity Note**  
 > This repository is **not recommended/intended for current or future students** to use for completing coursework.  
 
-Course homepage: https://web.stanford.edu/class/cs224n/
+Course homepage: [https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1254/](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1254/)
 
 ---
 
