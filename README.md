@@ -34,9 +34,9 @@ Course homepage: https://web.stanford.edu/class/cs224n/
 | ------------------------- | ----------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | Neural Dependency Parser  | Transition-based parsing      | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/neural-dep-parser)                 |
 | Neural Machine Translator | Seq2Seq + Attention           | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/neural-machine-translator) |
-| Minimal GPT-2             | Transformer LM (decoder-only) | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/fp-gpt2)                                     |
-| Minimal BERT (Extra)      | Transformer LM (encoder-only) | PyTorch | [Github Repo](https://github.com/SaehwanPark/minimal-bert)                                     |
-| Modern BERT (Extra)      | Transformer LM (encoder-only) | PyTorch | [Github Repo](https://github.com/SaehwanPark/modern-bert)                                     |
+| Minimal GPT-2             | Transformer LM (decoder-only) | JAX / Flax | [Github Repo](https://github.com/SaehwanPark/fp-gpt2)   |
+| Minimal BERT (Extra)      | Transformer LM (encoder-only) | PyTorch | [Github Repo](https://github.com/SaehwanPark/minimal-bert) |
+| Modern BERT (Extra)      | Transformer LM (encoder-only) | PyTorch | [Github Repo](https://github.com/SaehwanPark/modern-bert)   |
 
 
 ---
@@ -155,6 +155,7 @@ Highlights:
 
 ### 5. ModernBERT (From Scratch): Extra / Implemented in PyTorch
 
+- Modern variant (released in 2024) of BERT with many advanced techniques
 - Codebase size reduced by approx. 60% 
 - Modular components with Hugging Face weight compatibility
 - Fully implemented advanced features: alternating attention, dual RoPE scheduling, GeGLU activation, skip-first pre-norm, base-free LayerNorm, etc.
